@@ -6,5 +6,8 @@
         "psr-4": {
             "Domain\\" : "domain/"
         }
+    },
+    "require": {
+        "fzaninotto/faker": "^1.9"
     }
 }

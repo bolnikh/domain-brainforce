@@ -21,8 +21,8 @@ class User
 
 
     public function getId() {
-        return $this->id;
-    }
+    return $this->id;
+}
 
     public function getLogin() {
         return $this->login;
@@ -34,5 +34,21 @@ class User
 
     public function getEmail() {
         return $this->email;
+    }
+
+    public function setId($id) {
+        $this->id = $id;
+    }
+
+    public function setLogin($login) {
+        return $this->login = $login;
+    }
+
+    public function setFio($fio) {
+        return $this->fio = $fio;
+    }
+
+    public function setEmail($email) {
+        return $this->email = $email;
     }
 }
